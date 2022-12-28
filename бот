@@ -1,0 +1,246 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let anwall = 0
+        "use strict"
+        let an1 =prompt("Будем проходить тест по окружающему миру?) 1-да 2-нет 3-конечно 4-давай 5-невозможно")
+        switch (an1) {
+  case "1":
+    alert('Привет,это тест по окружающему миру');
+    break;
+    
+  case "2":
+    alert('Будем считать за да');
+    break;
+
+  case "3":
+    alert('Ну оке');
+    break;
+
+  case "4":
+    alert('Ну давай');
+    break;
+
+  case "5":
+    alert('Дверь знаешь где');
+
+  default:
+    alert("Нет таких значений");
+    if (an1==5) {
+      let anexit2 = prompt("А почему не ушел? 1-Интересно 2-Ок ")
+      if (anexit2 == "1"){
+        alert("Ну продолжаем")
+      }else if (anexit2=="2"){
+      end
+      }
+    }
+}
+if(an1 == "1","2","3","4"){
+      (an1 == true)
+      anwall +=1
+    }
+let an2 =prompt("Где здесь фрукт? 1.Груша. 2.Огурец. 3.Помидор. 4.Арбуз. 5.Лук.")
+        switch (an2) {
+  case "1":
+    alert('Молодец)');
+    break;
+    
+  case "2":
+    alert('по факту, но не то)');
+    break;
+
+  case "3":
+    alert('Ну тут без слов');
+    break;
+
+  case "4":
+    alert('Мда, голова не думает?');
+    break;
+
+  case "5":
+    alert('Не правильно)');
+    break;
+
+  default:
+    alert("Нет таких значений");
+}
+if (an2 == "4"){
+  (an2 == true)
+  anwall +=1
+}
+let an3 =prompt("Какой из овощей является корнеплодом и вырастает под землей? 1.Яблоко. 2.Капуста. 3.Кабачек. 4.Морковь. 5.Баклажан.")
+        switch (an3) {
+  case "1":
+    alert('Полный дурак, это вообще-то фрукт');
+    break;
+    
+  case "2":
+    alert('Ужас, думай лучше');
+    break;
+
+  case "3":
+    alert('Где твои мозги?');
+    break;
+
+  case "4":
+    alert('Да тыж какой молодец');
+    break;
+
+  case "5":
+    alert('Неее правильно');
+    break;
+
+  default:
+    alert("Следующий вопрос легче");
+}
+if (an3 == "2"){
+(an3 == true)
+anwall +=1
+}
+let an4 =prompt("Плод, который растет на грядке? 1.Свекла. 2.Слива. 3.Малина. 4.Мандарин. 5.Банан.")
+        switch (an4) {
+  case "1":
+    alert('Молодец, держи конфетку');
+    break;
+    
+  case "2":
+    alert('Неее, не то');
+    break;
+
+  case "3":
+    alert('Хорошо с головой?');
+    break;
+
+  case "4":
+    alert('Иди почитай книгу');
+    break;
+
+  case "5":
+    alert('Ужас');
+    break;
+
+  default:
+    alert("Нет таких значений");
+}
+if (an4 == "1"){
+  (an4 ==true)
+  anwall +=1
+}
+let an5 =prompt("Из чего можно приготовить компот? 1.Сливы. 2.Яблоки. 3.Груши. 4.Облипиха. 5.Все ответы верны." )
+        switch (an5) {
+  case "1":
+    alert('Правильно, но не совсем)');
+    break;
+    
+  case "2":
+    alert('Не то');
+    break;
+
+  case "3":
+    alert('Еще есть варианты');
+    break;
+
+  case "4":
+    alert('Не совсем');
+    break;
+
+  case "5":
+    alert('Да тыж умный какой');
+    break;
+
+  default:
+    alert("Нет таких значений");
+}
+if (an5 == "1"){
+(an5 ==true)
+anwall +=1
+}
+let an6 =prompt("Как часто надо есть фрукты и овощи? 1.Один раз в год. 2.Один раз в месяц. 3.Никогда. 4.Один раз в неделю. 5.Каждый день.")
+        switch (an6) {
+  case "1":
+    alert('Ты еще не умер?');
+    break;
+    
+  case "2":
+    alert('Ну неееет');
+    break;
+
+  case "3":
+    alert('Хорошо бы тебе было');
+    break;
+
+  case "4":
+    alert('Плохо');
+    break;
+
+  case "5":
+    alert('Умничка');
+    break;
+default:
+    alert("Нет таких значений");
+}
+if (an6 == "2"){
+(an6 ==true)
+anwall +=1
+}
+let an7 =prompt("Витамины содержатся? 1.В фруктах. 2.В овощах. 3.В ягодах. 4.Все варианты верны.")
+        switch (an7) {
+  case "1":
+    alert('Почти');
+    break;
+    
+  case "2":
+    alert('Чутка не угадал');
+    break;
+
+  case "3":
+    alert('Немного не угадал');
+    break;
+
+    case "4":
+    alert('Отлично)');
+    break;
+
+  default:
+    alert("Нет таких значений");
+}
+if (an7 == "3"){
+(an7 ==true)
+anwall +=1
+}
+let an8 =prompt("Как называют человека, который выращивает овощи в огороде? 1.Садовник. 2.Огородник. 3.Дачник. 4.Пенсионер. 5.Я.")
+        switch (an8) {
+  case "1":
+    alert('Цветы подарить?');
+    break;
+    
+  case "2":
+    alert('Молодец');
+    break;
+
+  case "3":
+    alert('Серьёзно?');
+    break;
+
+  case "4":
+    alert('Ужас, что ты думаешь о нем)');
+    break;
+
+  case "5":
+    alert('Хапхапха, смешно');
+    break;
+
+  default:
+    alert("Нет таких значений");
+}
+let an9 =prompt("Вы успешно прошли тест.")
+    </script>
+</body>
+</html>
